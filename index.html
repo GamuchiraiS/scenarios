@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Scenarios</title>
+</head>
+<body>
+    <!-- Scenario 1 -->
+    <section class = "s-one">
+        <h2 class = "s-one__title">Scenario 1</h2>
+        <div class = "s-one__container">
+            <div id = "block__one" class="s-one__container--block block">1</div>
+            <div id = "block__two" class="s-one__container--block block">2</div>
+            <div id = "block__three" class="s-one__container--block block">3</div>
+        </div>
+    </section>
+   <!--  Scenario 2 -->
+    <section class = "s-two">
+        <h2 class = "s-two__title">Scenario 2</h2>
+        <div class="s-two__container">
+            <!-- 1. Table -->
+            <div class="s-two__container--table">
+                <h3>1. Table</h3>
+                <table class = "s-two__table">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 2. Inline-block -->
+            <div class="s-two__container--inline">
+                <h3>2. Inline-block</h3>
+                <div class="inline block" style="margin-bottom: 0px;margin-right: 0px;">1</div>
+                <div class="inline block" style="margin-right: 0px;">2</div>
+                <div class="inline block">3</div>
+            </div>
+            <!-- 3. Float -->
+            <div class="s-two__container--float">
+                <h3>3. Float</h3>
+                <div class="float block">1</div>
+                <div class="float block">2</div>
+                <div class="float block">3</div>
+            </div>
+            <!-- 4. Column -->
+            <div class="s-two__container--col">
+                <h3>4. Column</h3>
+                <div class="col-contain">
+                    <div class="col block">1</div>
+                    <div class="col block">2</div>
+                    <div class="col block">3</div>
+                </div>
+            </div>
+            <!-- 5. Absolute -->
+            <div class="s-two__container--absolute">
+                <h3 style="padding-bottom: 15px;padding-top: 15px">5. Absolute</h3>
+                <div id = "b1" class="abs block">1</div>
+                <div id = "b2" class="abs block">2</div>
+                <div id = "b3" class="abs block">3</div>
+            </div>
+            <!-- 6. Flexbox -->
+            <div class="s-two__container--flex">
+                <h3>6. Flexbox</h3>
+                <div class="flex-contain">
+                    <div class="flex block">1</div>
+                    <div class="flex block">2</div>
+                    <div class="flex block">3</div>
+                </div>
+            </div>
+            <!-- 7. Grid -->
+            <div class="s-two__container--grid">
+                <h3>7. Grid</h3>
+                <div class="grid-contain">
+                    <div class="grid block">1</div>
+                    <div class="grid block">2</div>
+                    <div class="grid block">3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
